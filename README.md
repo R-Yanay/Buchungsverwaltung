@@ -156,11 +156,18 @@ Simuliert **HTTP-Anfragen** ohne echten Server. Der Service wird **gemockt** –
 
 ## API testen mit Postman
 
-Die Postman-Collection liegt unter `postman/collections/buchungsverwaltung.json`.
+Die Postman-Requests liegen im Projekt unter `postman/collections/Buchungsverwaltung API-1/` als YAML-Dateien.
+Diese werden automatisch mit deinem Postman-Workspace synchronisiert.
+
+Um die API in Postman zu testen:
 
 1. Postman öffnen
-2. Die JSON-Datei in Postman ziehen oder über **Import** laden
-3. Die Collection `Buchungsverwaltung API` erscheint links mit 4 Requests
+2. Den Local File-based Workspace aus diesem Projekt öffnen
+3. Die Collection `Buchungsverwaltung API` erscheint links mit 4 Requests:
+   - Flug erstellen (POST)
+   - Alle Flüge anzeigen (GET)
+   - Passagier einbuchen (POST)
+   - Passagiere anzeigen (GET)
 4. Server starten und die Requests mit **Send** ausführen
 
 ## Was ich gelernt habe
