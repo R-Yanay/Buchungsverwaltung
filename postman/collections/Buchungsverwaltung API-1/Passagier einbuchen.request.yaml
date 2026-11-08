@@ -1,0 +1,14 @@
+$kind: http-request
+description: Bucht einen Passagier für Flug ID 1 ein. ID bei Bedarf anpassen.
+url: http://localhost:8080/fluege/1/buchen
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "name": "Max Mustermann",
+      "alter": 30
+    }
+order: 3000

@@ -1,0 +1,3 @@
+$kind: collection
+name: Buchungsverwaltung API
+description: API-Tests für die Spring Boot Buchungsverwaltung

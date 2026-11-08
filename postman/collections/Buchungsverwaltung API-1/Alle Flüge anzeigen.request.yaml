@@ -1,0 +1,5 @@
+$kind: http-request
+description: Zeigt alle erstellten Flüge als Liste an.
+url: http://localhost:8080/fluege
+method: GET
+order: 2000

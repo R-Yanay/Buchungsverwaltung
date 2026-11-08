@@ -1,0 +1,5 @@
+$kind: http-request
+description: Zeigt alle Passagiere für Flug ID 1 an. ID bei Bedarf anpassen.
+url: http://localhost:8080/fluege/1/passagiere
+method: GET
+order: 4000

@@ -1,0 +1,15 @@
+$kind: http-request
+description: Erstellt einen neuen Flug mit Ziel, Abflugzeit und maximaler Kapazität.
+url: http://localhost:8080/fluege
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "ziel": "Paris",
+      "abflug": "2026-12-01T10:00",
+      "maxKapazitaet": 5
+    }
+order: 1000
